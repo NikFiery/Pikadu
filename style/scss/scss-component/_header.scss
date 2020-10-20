@@ -6,7 +6,7 @@ header {
     margin: auto;
     background: #FA8C16;
 
-    .header--wrapper {
+    .header__wrapper {
         display: flex;
         align-items: center;
         width: 80%;
@@ -23,7 +23,7 @@ header {
         margin-left: 58px;
         margin-right: auto;
 
-        .navigation--link {
+        .navigation__link {
 
             a{
                 margin-right: 15px;
@@ -35,21 +35,21 @@ header {
         }
     }
 
-    .input--menu {
+    .input__menu {
         position: relative;
-        .input--text {
+        .input__text {
             padding: 5px 30px 5px 12px;
             border-radius: 2px;
             border: 1px #d9d9d9 solid;
             box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.5);
         }
 
-        .input--text::placeholder { 
+        .input__text::placeholder { 
             font-size: calc(13px + 0.137vw);
             opacity: 50%;
         }
 
-        .input--btn {
+        .input__btn {
             position: absolute;
             top: 6px;
             right: 7px;
