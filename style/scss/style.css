@@ -59,7 +59,7 @@ header .header--wrapper {
 header .logo {
   width: 49px;
   height: 24px;
-  background: url(/img/logo.svg) center center no-repeat;
+  background: url(../../img/logo.svg) center center no-repeat;
 }
 
 header .navigation {
@@ -116,11 +116,11 @@ header .input--menu .input--btn {
   right: 7px;
   width: 16px;
   height: 16px;
-  background: url(/img/search.svg);
+  background: url(../../img/search.svg);
 }
 
 body {
-  background: url(/img/background.jpg) center center no-repeat;
+  background: url(../../img/background.jpg) center center no-repeat;
 }
 
 .wrapper {
