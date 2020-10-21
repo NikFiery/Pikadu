@@ -1,12 +1,12 @@
 @mixin title-text {
-    font-family: 'Lato', sans-serif;
+    font-family: sans-serif, 'Lato';
     font-weight: bold;
-    font-size: calc(10px + 0.137vw);
+    font-size: calc(15px + 0.137vw);
     color: #262626;
 }
 
 @mixin post-text {
-    font-family: 'Lato', sans-serif;
+    font-family: sans-serif, 'Lato';
     font-weight: normal;
     font-size: calc(15px + 0.137vw);
     color: #262626;

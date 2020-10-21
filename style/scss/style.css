@@ -144,8 +144,8 @@ main {
 }
 
 .post {
+  border: 1px solid #E8E8E8;
   background: #fff;
-  border: 1px #f3f3f3 solid;
 }
 
 .post .post--container {
@@ -157,14 +157,12 @@ main {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 35px 36px 22px;
-  border-top: 1px #f3f3f3 solid;
-  border-right: 1px #f3f3f3 solid;
 }
 
 .post .post--container .post--title {
-  font-family: 'Lato', sans-serif;
+  font-family: sans-serif, 'Lato';
   font-weight: bold;
-  font-size: calc(10px + 0.137vw);
+  font-size: calc(15px + 0.137vw);
   color: #262626;
 }
 
@@ -179,7 +177,7 @@ main {
 }
 
 .post .post--container .post--content .post--text {
-  font-family: 'Lato', sans-serif;
+  font-family: sans-serif, 'Lato';
   font-weight: normal;
   font-size: calc(15px + 0.137vw);
   color: #262626;
@@ -194,7 +192,10 @@ main {
 
 .post .post--container .hashtag .hashtag__link {
   margin-right: 10px;
-  font-family: 'Lato', sans-serif;
+}
+
+.post .post--container .hashtag .hashtag__link a {
+  font-family: sans-serif, 'Lato';
   font-weight: normal;
   font-size: calc(15px + 0.137vw);
   color: #262626;
@@ -213,8 +214,8 @@ main {
           align-items: center;
   width: 100%;
   padding: 0 36px;
+  border-top: 1px solid #E8E8E8;
   background: rgba(229, 229, 229, 0.5);
-  border: 1px #e8e8e8 solid;
 }
 
 .post .post--footer .footer--functional {
@@ -257,7 +258,7 @@ main {
 }
 
 .post .post--footer .footer__author .author--menu .author--name {
-  font-family: 'Lato', sans-serif;
+  font-family: sans-serif, 'Lato';
   font-weight: normal;
   font-size: calc(15px + 0.137vw);
   color: #262626;
@@ -267,7 +268,7 @@ main {
 }
 
 .post .post--footer .footer__author .author--menu .author--activity {
-  font-family: 'Lato', sans-serif;
+  font-family: sans-serif, 'Lato';
   font-weight: normal;
   font-size: calc(15px + 0.137vw);
   color: #262626;
@@ -279,7 +280,15 @@ main {
   width: 34px;
   height: 34px;
   margin-left: 9px;
-  background: url(../../img/avatar-comments.svg) center center no-repeat;
+  background: url(../../img/avatar-comments.jpeg) center center no-repeat;
+  background-size: cover;
+}
+
+.post .post--footer .footer__author .author--icon:hover {
+  border-radius: 50%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
 .post__bottom {
@@ -295,7 +304,7 @@ main {
   top: 3px;
   left: 25px;
   content: '12';
-  font-family: 'Lato', sans-serif;
+  font-family: sans-serif, 'Lato';
   font-weight: normal;
   font-size: calc(15px + 0.137vw);
   color: #262626;
@@ -311,7 +320,7 @@ main {
   top: 3px;
   left: 25px;
   content: '157';
-  font-family: 'Lato', sans-serif;
+  font-family: sans-serif, 'Lato';
   font-weight: normal;
   font-size: calc(15px + 0.137vw);
   color: #262626;

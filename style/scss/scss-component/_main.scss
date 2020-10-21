@@ -16,15 +16,13 @@ flex-direction: column;
 }
 
 .post {
+    border: 1px solid #E8E8E8;
     background: #fff;
-    border: 1px #f3f3f3 solid;
 
     .post--container {
         display: flex;
         flex-direction: column;
         padding: 35px 36px 22px;
-        border-top: 1px #f3f3f3 solid;
-        border-right: 1px #f3f3f3 solid;
 
         .post--title {
             @include title-text;
@@ -44,8 +42,11 @@ flex-direction: column;
 
             .hashtag__link {
                 margin-right: 10px;
-                @include post-text;
-                color: #bfbfbf;
+
+                a {
+                    @include post-text;
+                    color: #bfbfbf;
+                }
             }
         }
     }
@@ -56,8 +57,8 @@ flex-direction: column;
         align-items: center;
         width: 100%;
         padding: 0 36px;
+        border-top: 1px solid #E8E8E8;
         background: rgba(229, 229, 229, 0.5);
-        border: 1px #e8e8e8 solid;
 
         .footer--functional {
             display: flex;
@@ -101,7 +102,14 @@ flex-direction: column;
                 width: 34px;
                 height: 34px;
                 margin-left: 9px;
-                background: url(../../img/avatar-comments.svg) center center no-repeat;
+                background: url(../../img/avatar-comments.jpeg) center center no-repeat;
+                background-size: cover;
+            }
+
+            .author--icon:hover {
+                border-radius: 50%;
+                transition: 0.3s;
+                cursor: pointer;
             }
         }
     }
