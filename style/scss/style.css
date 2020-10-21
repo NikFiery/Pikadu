@@ -335,6 +335,141 @@ main {
   background: url(../../img/send.svg) center center no-repeat;
 }
 
+aside .aside-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 370px;
+  margin-left: 20px;
+}
+
+.aside__profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px solid #E8E8E8;
+}
+
+.aside__profile .profile__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 25px;
+  background: #fafafa;
+  border-bottom: 1px solid #E8E8E8;
+}
+
+.aside__profile .profile__header .profile__avatar {
+  width: 40px;
+  height: 40px;
+  margin-right: 17px;
+  background: url(../../img/avatar-nikita.jpeg) center center no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.aside__profile .profile__header .profile__name {
+  font-family: sans-serif, 'Lato';
+  font-weight: bold;
+  font-size: calc(15px + 0.137vw);
+  color: #262626;
+  margin-right: auto;
+}
+
+.aside__profile .profile__header .profile__exit {
+  width: 24px;
+  height: 24px;
+  background: url(../../img/btn-esc.svg) center center no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.aside__profile .profile__functional .profile__navigation button {
+  font-family: sans-serif, 'Lato';
+  font-weight: normal;
+  font-size: calc(15px + 0.137vw);
+  color: #262626;
+  padding: 16px 16px 16px 48px;
+  background: #fff;
+}
+
+.aside__btn {
+  margin: 20px 0;
+  font-family: sans-serif, 'Lato';
+  font-weight: normal;
+  font-size: calc(15px + 0.137vw);
+  color: #262626;
+  padding: 13px 16px 13px 36px;
+  text-align: center;
+  color: #fff;
+  background: #faad14;
+  border-radius: 4px;
+}
+
+.aside__comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px #e8e8e8 solid;
+}
+
+.aside__comment .comment__day {
+  font-family: sans-serif, 'Lato';
+  font-weight: bold;
+  font-size: calc(15px + 0.137vw);
+  color: #262626;
+  padding: 23px 131px 23px 25px;
+  background: #fafafa;
+  border-bottom: 1px #e8e8e8 solid;
+}
+
+.aside__comment .comment__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px 40px 30px 25px;
+}
+
+.aside__comment .comment__content .comment__title {
+  font-family: sans-serif, 'Lato';
+  font-weight: normal;
+  font-size: calc(15px + 0.137vw);
+  color: #262626;
+  font-weight: bold;
+  color: #D48806;
+}
+
+.aside__comment .comment__content .comment__text {
+  margin-top: 10px;
+  font-family: sans-serif, 'Lato';
+  font-weight: normal;
+  font-size: calc(15px + 0.137vw);
+  color: #262626;
+}
+
+.aside__ads {
+  margin-top: 20px;
+}
+
 body {
   background: url(../../img/background.jpg) center center no-repeat;
 }
