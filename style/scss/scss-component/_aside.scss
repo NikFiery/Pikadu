@@ -1,7 +1,6 @@
 aside {
 
     .aside-wrapper {
-        position: relative;
         display: flex;
         flex-direction: column;
         width: 370px;
@@ -82,24 +81,29 @@ aside {
 }
 
 .aside__btn {
-    margin: 20px 0;
-    padding: 13px 16px 13px 36px;
-    text-align: center;
-    @include post-text;
-    color: #fff;
-    background: #faad14;
-    border-radius: 4px;
-}
+    position: relative;
 
-.aside__btn::after {
-    position: absolute;
-    top: 3px;
-    left: 25px;
-    width: 16px;
-    height: 16px;
-    content: ' ';
-    background: url(../../img/aside-fier.svg) center center no-repeat;
-    background-size: cover;//допиши позиционирование от дива(контейнера), который создаш кнопке //
+    .aside__btn--push {
+        width: 100%;
+        margin: 20px 0;
+        padding: 13px 16px 13px 36px;
+        text-align: center;
+        @include post-text;
+        color: #fff;
+        background: #faad14;
+        border-radius: 4px;
+    }
+
+    .aside__btn--push::after {
+        position: absolute;
+        top: 34px;
+        left: 27px;
+        width: 18px;
+        height: 20px;
+        content: ' ';
+        background: url(../../img/aside-fier.svg) center center no-repeat;
+        background-size: cover; //допиши позиционирование от дива(контейнера), который создаш кнопке //
+    }
 }
 
 .aside__comment {

@@ -336,7 +336,6 @@ main {
 }
 
 aside .aside-wrapper {
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -430,6 +429,11 @@ aside .aside-wrapper {
 }
 
 .aside__btn {
+  position: relative;
+}
+
+.aside__btn .aside__btn--push {
+  width: 100%;
   margin: 20px 0;
   padding: 13px 16px 13px 36px;
   text-align: center;
@@ -442,12 +446,12 @@ aside .aside-wrapper {
   border-radius: 4px;
 }
 
-.aside__btn::after {
+.aside__btn .aside__btn--push::after {
   position: absolute;
-  top: 3px;
-  left: 25px;
-  width: 16px;
-  height: 16px;
+  top: 34px;
+  left: 27px;
+  width: 18px;
+  height: 20px;
   content: ' ';
   background: url(../../img/aside-fier.svg) center center no-repeat;
   background-size: cover;
