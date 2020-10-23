@@ -409,6 +409,10 @@ aside .aside-wrapper {
   transition: 0.2s;
 }
 
+.aside__profile .profile__functional .profile__navigation {
+  position: relative;
+}
+
 .aside__profile .profile__functional .profile__navigation button {
   font-family: sans-serif, 'Lato';
   font-weight: normal;
@@ -426,6 +430,16 @@ aside .aside-wrapper {
 
 .aside__profile .profile__functional .profile__navigation :active {
   color: #FAAD14;
+}
+
+.aside__profile .profile__functional .profile__navigation .marker__answers::after {
+  position: absolute;
+  top: 99px;
+  left: 70px;
+  content: '';
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 7px solid #FC745B;
 }
 
 .aside__btn {

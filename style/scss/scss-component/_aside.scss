@@ -60,7 +60,7 @@ aside {
     .profile__functional {
 
         .profile__navigation {
-
+            position: relative;
             button {
                 @include post-text;
                 padding: 16px 16px 16px 48px;
@@ -76,6 +76,24 @@ aside {
             :active {
                 color: #FAAD14;
             }
+                //MARKER DECORATION//
+            .marker__answers::after {
+                position: absolute;
+                top: 99px;
+                left: 70px;
+                //display: none;// //Так не сработвет создай див отдельный для стикера и отключи дисплей ему //
+                content: '';
+                border-top: 7px solid transparent;
+                border-bottom: 7px solid transparent;
+                border-left: 7px solid #FC745B;
+            }
+            .marker__comments {
+            }
+            .marker__estimations {}
+            .marker__conserved {}
+            .marker__subscriptions {}
+            .marker__notes {}
+            .marker__ban {}
         }
     }
 }
@@ -96,10 +114,11 @@ aside {
 
     .aside__btn--push::after {
         position: absolute;
-        top: 34px;
-        left: 27px;
-        width: 18px;
-        height: 20px;
+    top: 34px;
+    left: 27px;
+    width: 18px;
+    height: 20px;
+
         content: ' ';
         background: url(../../img/aside-fier.svg) center center no-repeat;
         background-size: cover; //допиши позиционирование от дива(контейнера), который создаш кнопке //
