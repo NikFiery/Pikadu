@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300;500;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./style/scss/style.css">
     <title>Pikadu</title>
 </head>
@@ -180,16 +182,45 @@
                                 <button class="profile__exit"></button>
                             </div>
                             <ul class="profile__functional">
-                                <li class="profile__navigation"><button class="marker__answers">Answers</button></li>
-                                <li class="profile__navigation"><button class="marker__comments">Comments</button></li>
-                                <li class="profile__navigation"><button class="marker__estimations">Estimations</button></li>
-                                <li class="profile__navigation"><button class="marker__conserved">Conserved</button></li>
-                                <li class="profile__navigation"><button class="marker__subscriptions">Subscriptions</button></li>
-                                <li class="profile__navigation"><button class="marker__notes">Notes</button></li>
-                                <li class="profile__navigation"><button class="marker__ban">Ban</button></li>
+
+                                <li class="profile__navigation">
+                                    <button class="btn__nav">Answers</button>
+                                    <div class="marker__answers"></div>
+                                </li>
+
+                                <li class="profile__navigation">
+                                    <button class="btn__nav">Comments</button>
+                                    <div class="marker__comments"></div>
+                                </li>
+
+                                <li class="profile__navigation">
+                                    <button class="btn__nav">Estimations</button>
+                                    <div class="marker__estimations"></div>
+                                </li>
+
+                                <li class="profile__navigation">
+                                    <button class="btn__nav">Conserved</button>
+                                    <div class="marker__conserved"></div>
+                                </li>
+
+                                <li class="profile__navigation">
+                                    <button class="btn__nav">Subscriptions</button>
+                                    <div class="marker__subscriptions"></div>
+
+                                <li class="profile__navigation">
+                                    <button class="btn__nav">Notes</button>
+                                    <div class="marker__notes"></div>
+                                </li>
+
+                                <li class="profile__navigation">
+                                    <button class="btn__nav">Ban</button>
+                                    <div class="marker__ban"></div>
+                                </li>
                             </ul>
                         </div>
-                        <div class="aside__btn"><button class="aside__btn--push">Publish a post</button></div>
+                        <div class="aside__btn">
+                            <button class="aside__btn--push">Publish a post</button>
+                        </div>
                         <div class="aside__comment">
                             <h2 class="comment__day">Comment of the day</h2>
                             <div class="comment__content">

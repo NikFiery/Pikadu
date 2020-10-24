@@ -160,9 +160,10 @@ main {
 }
 
 .post .post--container .post--title {
-  font-family: sans-serif, 'Lato';
-  font-weight: bold;
+  font-family: 'Mitr', sans-serif;
+  font-weight: 500;
   font-size: calc(15px + 0.137vw);
+  line-height: 24px;
   color: #262626;
 }
 
@@ -177,9 +178,10 @@ main {
 }
 
 .post .post--container .post--content .post--text {
-  font-family: sans-serif, 'Lato';
-  font-weight: normal;
-  font-size: calc(15px + 0.137vw);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: calc(13px + 0.137vw);
+  line-height: 22px;
   color: #262626;
   padding: 15px 0;
 }
@@ -195,9 +197,10 @@ main {
 }
 
 .post .post--container .hashtag .hashtag__link a {
-  font-family: sans-serif, 'Lato';
-  font-weight: normal;
-  font-size: calc(15px + 0.137vw);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: calc(13px + 0.137vw);
+  line-height: 22px;
   color: #262626;
   color: #bfbfbf;
 }
@@ -258,9 +261,10 @@ main {
 }
 
 .post .post--footer .footer__author .author--menu .author--name {
-  font-family: sans-serif, 'Lato';
-  font-weight: normal;
-  font-size: calc(15px + 0.137vw);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: calc(13px + 0.137vw);
+  line-height: 22px;
   color: #262626;
   font-size: 12px;
   text-align: end;
@@ -268,9 +272,10 @@ main {
 }
 
 .post .post--footer .footer__author .author--menu .author--activity {
-  font-family: sans-serif, 'Lato';
-  font-weight: normal;
-  font-size: calc(15px + 0.137vw);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: calc(13px + 0.137vw);
+  line-height: 22px;
   color: #262626;
   font-size: 12px;
   color: #bfbfbf;
@@ -304,9 +309,10 @@ main {
   top: 3px;
   left: 25px;
   content: '12';
-  font-family: sans-serif, 'Lato';
-  font-weight: normal;
-  font-size: calc(15px + 0.137vw);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: calc(13px + 0.137vw);
+  line-height: 22px;
   color: #262626;
   color: #8c8c8c;
 }
@@ -320,9 +326,10 @@ main {
   top: 3px;
   left: 25px;
   content: '157';
-  font-family: sans-serif, 'Lato';
-  font-weight: normal;
-  font-size: calc(15px + 0.137vw);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: calc(13px + 0.137vw);
+  line-height: 22px;
   color: #262626;
   color: #8c8c8c;
 }
@@ -380,9 +387,10 @@ aside .aside-wrapper {
 }
 
 .aside__profile .profile__header .profile__name {
-  font-family: sans-serif, 'Lato';
-  font-weight: bold;
+  font-family: 'Mitr', sans-serif;
+  font-weight: 500;
   font-size: calc(15px + 0.137vw);
+  line-height: 24px;
   color: #262626;
   margin-right: auto;
 }
@@ -413,33 +421,122 @@ aside .aside-wrapper {
   position: relative;
 }
 
-.aside__profile .profile__functional .profile__navigation button {
-  font-family: sans-serif, 'Lato';
-  font-weight: normal;
-  font-size: calc(15px + 0.137vw);
-  color: #262626;
+.aside__profile .profile__functional .profile__navigation .btn__nav {
+  width: 100%;
   padding: 16px 16px 16px 48px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: calc(13px + 0.137vw);
+  line-height: 22px;
+  color: #262626;
   background: #fff;
+  text-align: start;
 }
 
-.aside__profile .profile__functional .profile__navigation :hover {
-  width: 100%;
-  text-align: start;
+.aside__profile .profile__functional .profile__navigation .btn__nav:hover {
   background: #FFFBE6;
 }
 
-.aside__profile .profile__functional .profile__navigation :active {
+.aside__profile .profile__functional .profile__navigation .btn__nav:active {
   color: #FAAD14;
 }
 
-.aside__profile .profile__functional .profile__navigation .marker__answers::after {
+.aside__profile .profile__functional .profile__navigation .marker__answers {
   position: absolute;
-  top: 99px;
-  left: 70px;
-  content: '';
-  border-top: 7px solid transparent;
-  border-bottom: 7px solid transparent;
-  border-left: 7px solid #FC745B;
+  top: 1px;
+  right: 1px;
+  width: 3px;
+  height: 100%;
+  background: #FAAD14;
+  display: none;
+}
+
+.aside__profile .profile__functional .profile__navigation .marker__comments {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  width: 3px;
+  height: 100%;
+  background: #FAAD14;
+  display: none;
+}
+
+.aside__profile .profile__functional .profile__navigation .marker__estimations {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  width: 3px;
+  height: 100%;
+  background: #FAAD14;
+  display: none;
+}
+
+.aside__profile .profile__functional .profile__navigation .marker__conserved {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  width: 3px;
+  height: 100%;
+  background: #FAAD14;
+  display: none;
+}
+
+.aside__profile .profile__functional .profile__navigation .marker__subscriptions {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  width: 3px;
+  height: 100%;
+  background: #FAAD14;
+  display: none;
+}
+
+.aside__profile .profile__functional .profile__navigation .marker__notes {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  width: 3px;
+  height: 100%;
+  background: #FAAD14;
+  display: none;
+}
+
+.aside__profile .profile__functional .profile__navigation .marker__ban {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  width: 3px;
+  height: 100%;
+  background: #FAAD14;
+  display: none;
+}
+
+.aside__profile .profile__functional .profile__navigation:hover .marker__answers {
+  display: block;
+}
+
+.aside__profile .profile__functional .profile__navigation:hover .marker__comments {
+  display: block;
+}
+
+.aside__profile .profile__functional .profile__navigation:hover .marker__estimations {
+  display: block;
+}
+
+.aside__profile .profile__functional .profile__navigation:hover .marker__conserved {
+  display: block;
+}
+
+.aside__profile .profile__functional .profile__navigation:hover .marker__subscriptions {
+  display: block;
+}
+
+.aside__profile .profile__functional .profile__navigation:hover .marker__notes {
+  display: block;
+}
+
+.aside__profile .profile__functional .profile__navigation:hover .marker__ban {
+  display: block;
 }
 
 .aside__btn {
@@ -451,9 +548,10 @@ aside .aside-wrapper {
   margin: 20px 0;
   padding: 13px 16px 13px 36px;
   text-align: center;
-  font-family: sans-serif, 'Lato';
-  font-weight: normal;
-  font-size: calc(15px + 0.137vw);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: calc(13px + 0.137vw);
+  line-height: 22px;
   color: #262626;
   color: #fff;
   background: #faad14;
@@ -483,9 +581,10 @@ aside .aside-wrapper {
 }
 
 .aside__comment .comment__day {
-  font-family: sans-serif, 'Lato';
-  font-weight: bold;
+  font-family: 'Mitr', sans-serif;
+  font-weight: 500;
   font-size: calc(15px + 0.137vw);
+  line-height: 24px;
   color: #262626;
   padding: 23px 131px 23px 25px;
   background: #fafafa;
@@ -504,9 +603,10 @@ aside .aside-wrapper {
 }
 
 .aside__comment .comment__content .comment__title {
-  font-family: sans-serif, 'Lato';
-  font-weight: normal;
-  font-size: calc(15px + 0.137vw);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: calc(13px + 0.137vw);
+  line-height: 22px;
   color: #262626;
   font-weight: bold;
   color: #D48806;
@@ -514,9 +614,10 @@ aside .aside-wrapper {
 
 .aside__comment .comment__content .comment__text {
   margin-top: 10px;
-  font-family: sans-serif, 'Lato';
-  font-weight: normal;
-  font-size: calc(15px + 0.137vw);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: calc(13px + 0.137vw);
+  line-height: 22px;
   color: #262626;
 }
 

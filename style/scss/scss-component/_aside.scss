@@ -61,42 +61,115 @@ aside {
 
         .profile__navigation {
             position: relative;
-            button {
-                @include post-text;
+
+            .btn__nav {
+                width: 100%;
                 padding: 16px 16px 16px 48px;
+                @include post-text;
                 background: #fff;
+                text-align: start;
             }
 
-            :hover {
-                width: 100%;
-                text-align: start;
+            .btn__nav:hover {
                 background: #FFFBE6;
             }
 
-            :active {
+            .btn__nav:active {
                 color: #FAAD14;
             }
                 //MARKER DECORATION//
-            .marker__answers::after {
+            .marker__answers {
                 position: absolute;
-                top: 99px;
-                left: 70px;
-                //display: none;// //Так не сработвет создай див отдельный для стикера и отключи дисплей ему //
-                content: '';
-                border-top: 7px solid transparent;
-                border-bottom: 7px solid transparent;
-                border-left: 7px solid #FC745B;
+                top: 1px;
+                right: 1px;
+                width: 3px;
+                height: 100%;
+                background: #FAAD14;
+                display: none;
             }
             .marker__comments {
+                position: absolute;
+                top: 1px;
+                right: 1px;
+                width: 3px;
+                height: 100%;
+                background: #FAAD14;
+                display: none;
             }
-            .marker__estimations {}
-            .marker__conserved {}
-            .marker__subscriptions {}
-            .marker__notes {}
-            .marker__ban {}
+            .marker__estimations {
+                position: absolute;
+                top: 1px;
+                right: 1px;
+                width: 3px;
+                height: 100%;
+                background: #FAAD14;
+                display: none;
+            }
+            .marker__conserved {
+                position: absolute;
+                top: 1px;
+                right: 1px;
+                width: 3px;
+                height: 100%;
+                background: #FAAD14;
+                display: none;
+            }
+            .marker__subscriptions {
+                position: absolute;
+                top: 1px;
+                right: 1px;
+                width: 3px;
+                height: 100%;
+                background: #FAAD14;
+                display: none;
+            }
+            .marker__notes {
+                position: absolute;
+                top: 1px;
+                right: 1px;
+                width: 3px;
+                height: 100%;
+                background: #FAAD14;
+                display: none;
+            }
+            .marker__ban {
+                position: absolute;
+                top: 1px;
+                right: 1px;
+                width: 3px;
+                height: 100%;
+                background: #FAAD14;
+                display: none;
+            }
+        }
+
+        .profile__navigation:hover {
+            .marker__answers {
+                display: block;
+            }
+            .marker__comments {
+                display: block;
+            }
+            .marker__estimations {
+                display: block;
+            }
+            .marker__conserved {
+                display: block;
+            }
+            .marker__subscriptions {
+                display: block;
+            }
+            .marker__notes {
+                display: block;
+            }
+            .marker__ban {
+                display: block;
+            }
         }
     }
 }
+
+
 
 .aside__btn {
     position: relative;
@@ -160,4 +233,3 @@ aside {
     margin-top: 20px;
 }
 
-.aside__ads::after {}
