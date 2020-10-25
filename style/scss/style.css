@@ -701,6 +701,12 @@ body {
   header .header__wrapper {
     width: 95%;
   }
+  aside {
+    right: 0px;
+  }
+  aside .aside-wrapper {
+    width: 300px;
+  }
 }
 
 @media (max-width: 610px) {
