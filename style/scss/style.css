@@ -119,6 +119,30 @@ header .input__menu .input__btn {
   background: url(../../img/search.svg);
 }
 
+header .burger {
+  margin-left: auto;
+  display: none;
+}
+
+header .burger .burger__top {
+  width: 25px;
+  height: 6px;
+  background: black;
+}
+
+header .burger .burger__center {
+  width: 25px;
+  height: 6px;
+  background: black;
+  margin: 4px 0;
+}
+
+header .burger .burger__bottom {
+  width: 25px;
+  height: 6px;
+  background: black;
+}
+
 main {
   width: 100%;
   background: #f5f5f5;
@@ -639,5 +663,43 @@ body {
           flex-direction: column;
   max-width: 1440px;
   margin: auto;
+}
+
+/*=======iPad pro========*/
+@media (max-width: 1024px) {
+  .main__wrapper {
+    position: relative;
+    margin: 35px 50px;
+    padding-bottom: 2px;
+  }
+  aside {
+    display: none;
+    position: absolute;
+    top: 0px;
+    right: -50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px #FA8C16 solid;
+    background: gainsboro;
+  }
+  .header__wrapper .burger {
+    display: block;
+  }
+  .header__wrapper .burger:hover aside {
+    display: block;
+    background: black;
+  }
+}
+
+@media (max-width: 720px) {
+  .header .input__menu .input__text {
+    padding: 5px 0px 5px 12px;
+  }
+  .header__wrapper .burger {
+    margin-left: 20px;
+  }
+  header .header__wrapper {
+    width: 95%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -58,5 +58,28 @@ header {
             background: url(../../img/search.svg)
         }
     }
+
+    .burger {
+        margin-left: auto;
+        display: none;
+        .burger__top {
+            width: 25px;
+            height: 6px;
+            background: black;
+        }
+
+        .burger__center {
+            width: 25px;
+            height: 6px;
+            background: black;
+            margin: 4px 0;
+        }
+
+        .burger__bottom {
+            width: 25px;
+            height: 6px;
+            background: black;
+        }
+    }
 }
 

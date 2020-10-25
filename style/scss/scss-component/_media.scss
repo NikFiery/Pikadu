@@ -1,3 +1,53 @@
-@media (max-width: 1180px) {
+           /*=======iPad pro========*/
+@media (max-width: 1024px) {
     
+    .main__wrapper {
+        position: relative;
+        margin: 35px 50px;
+        padding-bottom: 2px;
+    }
+    
+
+    aside {
+        display: none;
+        position: absolute;
+        top: 0px;
+        right: -50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border: 1px #FA8C16 solid;
+        background: gainsboro; //допилить с js
+    }
+
+    .header__wrapper {
+
+        .burger {
+            display: block;
+        }
+
+        .burger:hover {
+            aside {
+                display: block;
+                background: black;
+            }
+        }
+    }
+}
+
+@media (max-width: 720px) {
+    .header .input__menu .input__text {
+        padding: 5px 0px 5px 12px;
+    }
+
+    .header__wrapper .burger {
+        margin-left: 20px;
+    }
+
+    header .header__wrapper {
+        width: 95%;
+    }
+}
+
+@media (max-width: 610px) {
+
 }
