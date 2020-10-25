@@ -702,4 +702,68 @@ body {
     width: 95%;
   }
 }
+
+@media (max-width: 610px) {
+  .main__wrapper {
+    margin: 35px 3px;
+  }
+  .input__menu {
+    display: none;
+  }
+  .post .post--container {
+    padding: 35px 10px 22px;
+  }
+  .post .post--footer {
+    padding: 0 20px;
+  }
+  .post .post--footer .footer__author {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .post .post--footer .footer__author .author--menu .author--activity {
+    font-size: 8px;
+    line-height: 2px;
+  }
+}
+
+@media (max-width: 414px) {
+  header .navigation {
+    margin-left: 16px;
+  }
+  .post .post--footer {
+    padding: 0px;
+  }
+}
+
+@media (max-width: 320px) {
+  header .header__wrapper {
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .main__wrapper {
+    margin: 15px 0;
+  }
+  .post .post--footer .footer--functional .functional__link {
+    margin-right: 40px;
+  }
+  .post .post--footer .footer--functional .functional__link .functional__img {
+    width: 14px;
+    background-size: contain;
+  }
+  header .navigation {
+    margin: 0;
+  }
+  header .navigation .navigation__link a {
+    margin-right: 12px;
+  }
+  .header__wrapper .burger {
+    margin: 0;
+  }
+  .footer--functional:last-child {
+    margin: 0;
+  }
+}
 /*# sourceMappingURL=style.css.map */
