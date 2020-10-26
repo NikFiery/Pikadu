@@ -16,7 +16,7 @@
         padding-top: 20px;
         padding-bottom: 20px;
         border: 1px #FA8C16 solid;
-        background: gainsboro; //допилить с js
+        background: gainsboro;
     }
 
     .header__wrapper {
@@ -118,5 +118,13 @@
 
     .footer--functional:last-child{
         margin: 0;
+    }
+}
+
+//==== new post//
+@media (max-width: 378px) {
+    .new-post .new-post__btns .new-post__btn-send {
+        margin: 20px 10px 20px 0;
+        padding: 10px 6px;
     }
 }

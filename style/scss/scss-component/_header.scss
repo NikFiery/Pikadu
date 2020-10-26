@@ -32,6 +32,17 @@ header {
                 color: #fafafa;
                 opacity: 0.9;
             }
+
+            a:hover {
+                box-shadow: 1px 2px 4px -1px black;
+                border-radius: 10%;
+            }
+
+            a:active {
+                background: black;
+                color: #FA8C16;
+                border-radius: 10%;
+            }
         }
     }
 

@@ -17,7 +17,7 @@
                 <a href="#" class="logo"></a>
                 <ul class="navigation"><a>
                         <li class="navigation__link"><a href="#">Fresh</a></li>
-                        <li class="navigation__link"><a href="#">Top</a></li>
+                        <li class="navigation__link"><a href="#top-day">Top</a></li>
                         <li class="navigation__link"><a href="#">Hot</a></li>
                         <li class="navigation__link"><a href="#">Subscriptions</a></li>
                 </ul>
@@ -177,6 +177,17 @@
                         </div>
                     </div>
                 </div>
+                <form class="new-post">
+                    <div class="new-post__information">
+                        <input type="text" name="" id="" placeholder="The title of the post">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="The text of your post"></textarea>
+                    </div>
+                    <div class="new-post__btns">
+                        <button class="new-post__btn-send" required>Publish a post</button>
+                        <button class="new-post__video">+ Video</button>
+                        <button class="new-post__photo">+ Photo</button>
+                    </div>
+                </form>
             <!--============ASIDE=========-->
                 <aside>
                     <div class="aside-wrapper">
@@ -227,7 +238,7 @@
                             <button class="aside__btn--push">Publish a post</button>
                         </div>
                         <div class="aside__comment">
-                            <h2 class="comment__day">Comment of the day</h2>
+                            <h2 id="top-day" class="comment__day">Comment of the day</h2>
                             <div class="comment__content">
                                 <h2 class="comment__title">How to cheat an ATM if you want to withdraw more cash</h2>
                                 <span class="comment__text">Thus, strengthening and developing the structure requires us to
