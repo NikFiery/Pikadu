@@ -685,10 +685,6 @@ body {
   .header__wrapper .burger {
     display: block;
   }
-  .header__wrapper .burger:hover aside {
-    display: block;
-    background: black;
-  }
 }
 
 @media (max-width: 720px) {
